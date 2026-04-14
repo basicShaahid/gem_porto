@@ -17,11 +17,6 @@ export default function FeaturedGems() {
             Selected stones
           </h2>
         </div>
-
-        <p className="max-w-xl text-sm leading-6 text-[#6E675F]">
-          A slow moving selection of the full archive, allowing each stone to be
-          seen in sequence.
-        </p>
       </div>
 
       <div className="relative overflow-hidden">
@@ -38,9 +33,9 @@ export default function FeaturedGems() {
                     {gem.origin}
                   </div>
 
-                  <div className="absolute right-4 top-4 z-10 border border-[#DCCEBB] bg-[#FBF8F3]/90 px-2.5 py-1 text-[10px] uppercase tracking-[0.24em] text-[#8C6E34]">
+                  {/* <div className="absolute right-4 top-4 z-10 border border-[#DCCEBB] bg-[#FBF8F3]/90 px-2.5 py-1 text-[10px] uppercase tracking-[0.24em] text-[#8C6E34]">
                     {gem.price}
-                  </div>
+                  </div> */}
 
                   <Image
                     src={gem.image}
