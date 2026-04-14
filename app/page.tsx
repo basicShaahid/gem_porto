@@ -102,7 +102,7 @@ export default function Home() {
                   <option value="priceHigh">Price (High → Low)</option>
                   <option value="priceLow">Price (Low → High)</option>
                   <option value="caratHigh">Carat (High → Low)</option>
-                  <option value="caratLow">Carat (Low → High)</option>
+                  <option value="caratLow">Carat(Low → High)</option>
                 </select>
               </div>
             </div>
@@ -142,5 +142,5 @@ export default function Home() {
 
       <GemModal gem={active} onClose={() => setActive(null)} />
     </main>
-  );
+   );
 }
