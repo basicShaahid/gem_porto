@@ -27,3 +27,20 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+@keyframes featured-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.featured-marquee {
+  animation: featured-marquee 60s linear infinite;
+}
+
+.featured-marquee:hover {
+  animation-play-state: paused;
+}

@@ -9,7 +9,7 @@ type GemCardProps = {
 export default function GemCard({ gem }: GemCardProps) {
   return (
     <Link href={`/gems/${gem.slug}`} className="block">
-      <article className="group border border-[#E7DED2] bg-[#FBF8F3] p-4 transition duration-300 hover:-translate-y-1 hover:border-[#C6A96B] hover:shadow-[0_18px_40px_rgba(30,27,24,0.06)]">
+      <article className="group border border-[#E7DED2] bg-[#FBF8F3] p-4 transition duration-300 hover:-translate-y-1 hover:border-[#C6A96B] hover:bg-[#F1EBE2] hover:shadow-[0_18px_40px_rgba(30,27,24,0.06)]">
         <div className="relative aspect-[4/3] overflow-hidden border border-[#E7DED2] bg-[#F6F1EA]">
           <div className="absolute left-4 top-4 z-10 border border-[#DCCEBB] bg-[#FBF8F3]/90 px-2.5 py-1 text-[10px] uppercase tracking-[0.24em] text-[#7E7368]">
             {gem.origin}
