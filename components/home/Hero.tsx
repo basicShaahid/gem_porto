@@ -79,7 +79,7 @@ export default function Hero() {
               <div className="text-[11px] uppercase tracking-[0.26em] text-[#8D8174]">
                 Sri Lanka · 2.1 ct
               </div>
-              <div className="mt-2 text-lg text-[#8C6E34]">$1,800</div>
+              {/* <div className="mt-2 text-lg text-[#8C6E34]">$1,800</div> */}
             </div>
           </div>
         </div>

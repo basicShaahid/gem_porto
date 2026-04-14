@@ -15,9 +15,9 @@ export default function GemCard({ gem }: GemCardProps) {
             {gem.origin}
           </div>
 
-          <div className="absolute right-4 top-4 z-10 border border-[#DCCEBB] bg-[#FBF8F3]/90 px-2.5 py-1 text-[10px] uppercase tracking-[0.24em] text-[#8C6E34]">
+          {/* <div className="absolute right-4 top-4 z-10 border border-[#DCCEBB] bg-[#FBF8F3]/90 px-2.5 py-1 text-[10px] uppercase tracking-[0.24em] text-[#8C6E34]">
             {gem.price}
-          </div>
+          </div> */}
 
           <Image
             src={gem.image}
