@@ -55,9 +55,9 @@ export default function FeaturedGems() {
                     </h3>
                   </div>
 
-                  <div className="border border-[#E7DED2] px-3 py-2 text-xs uppercase tracking-[0.24em] text-[#4B443D] group-hover:border-[#C6A96B]">
+                  {/* <div className="border border-[#E7DED2] px-3 py-2 text-xs uppercase tracking-[0.24em] text-[#4B443D] group-hover:border-[#C6A96B]">
                     {gem.price}
-                  </div>
+                  </div> */}
                 </div>
 
                 <p className="mt-4 text-sm leading-6 text-[#6E675F]">

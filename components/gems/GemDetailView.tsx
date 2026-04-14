@@ -32,9 +32,9 @@ export default function GemDetailView({ gem }: GemDetailViewProps) {
           {gem.description}
         </p>
 
-        <div className="mt-8 inline-flex w-fit border border-[#DCCEBB] bg-[#FBF8F3] px-4 py-2 text-sm uppercase tracking-[0.24em] text-[#8C6E34]">
+        {/* <div className="mt-8 inline-flex w-fit border border-[#DCCEBB] bg-[#FBF8F3] px-4 py-2 text-sm uppercase tracking-[0.24em] text-[#8C6E34]">
           {gem.price}
-        </div>
+        </div> */}
 
         <div className="mt-10 grid grid-cols-2 gap-4 border-t border-[#E7DED2] pt-6">
           {[
